@@ -65,6 +65,7 @@ class LogConfig:
             filter=lambda record: record["extra"].get("name") == "dot",  # ✅ 只写入绑定 name="dot" 的日志
             enqueue=True,  # ✅ 多进程安全
         )
+        logger.info("日志初始化完成")
 
 
 class LogUtils:
