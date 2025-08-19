@@ -2,3 +2,4 @@
 # 注意实际开发中：所有包需指定版本
 pyyaml
 deepmerge
+loguru
